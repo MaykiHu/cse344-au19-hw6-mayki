@@ -1,0 +1,164 @@
+-------------------------------------------------------------------------------
+Test set: edu.uw.cs.FlightServiceTest
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 160.057 sec <<< FAILURE!
+runTest[16](edu.uw.cs.FlightServiceTest)  Time elapsed: 22.8 sec  <<< FAILURE!
+java.lang.AssertionError: Failed: actual outputs for /homes/iws/mayki/cse344-hw6-mayki/hw6/submission/starter-code/cases/book_2UsersSameFlight.txt were: 
+[Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 1: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 2: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 4: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 5: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Itinerary 6: 1 flight(s), 297 minutes
+ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209
+Booked flight(s), reservation ID: 1
+Goodbye
+, Created user user2
+Logged in as user2
+Itinerary 0: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 1: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 2: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 4: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 5: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Itinerary 6: 1 flight(s), 297 minutes
+ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209
+Booked flight(s), reservation ID: 2
+Goodbye
+]
+
+Possible outcomes were: 
+===== Outcome 0 =====
+[Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 1: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 2: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 4: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 5: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Itinerary 6: 1 flight(s), 297 minutes
+ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209
+Booking failed
+Goodbye
+, Created user user2
+Logged in as user2
+Itinerary 0: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 1: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 2: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 4: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 5: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Itinerary 6: 1 flight(s), 297 minutes
+ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209
+Booked flight(s), reservation ID: 1
+Goodbye
+]
+===== Outcome 1 =====
+[Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 1: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 2: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 4: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 5: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Itinerary 6: 1 flight(s), 297 minutes
+ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209
+Booked flight(s), reservation ID: 1
+Goodbye
+, Created user user2
+Logged in as user2
+Itinerary 0: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 1: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 2: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 4: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 5: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Itinerary 6: 1 flight(s), 297 minutes
+ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209
+Booking failed
+Goodbye
+]
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at edu.uw.cs.FlightServiceTest.runTest(FlightServiceTest.java:250)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+

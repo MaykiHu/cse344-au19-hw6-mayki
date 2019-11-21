@@ -1,0 +1,13 @@
+#
+# login without valid username
+#
+# user 1's commands
+login user1 user1
+quit
+*
+#
+# expected printouts for user 1
+#
+Login failed
+Goodbye
+*

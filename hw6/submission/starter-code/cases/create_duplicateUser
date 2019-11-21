@@ -1,0 +1,15 @@
+#
+# create with invalid/duplicate username
+#
+# user 1's commands
+create user1 user1 100
+create user1 user1 100
+quit
+*
+#
+# expected printouts for user 1
+#
+Created user user1
+Failed to create user
+Goodbye
+*
